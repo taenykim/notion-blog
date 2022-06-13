@@ -17,6 +17,9 @@ export interface SiteConfig {
   youtube?: string
   zhihu?: string
 
+  // Utteranc.es comments via GitHub issue comments (optional)
+  utterancesGitHubRepo: string | null
+
   defaultPageIcon?: string | null
   defaultPageCover?: string | null
   defaultPageCoverPosition?: number | null

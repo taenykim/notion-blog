@@ -30,6 +30,7 @@ import { PageAside } from './PageAside'
 import { Footer } from './Footer'
 import { NotionPageHeader } from './NotionPageHeader'
 import { GitHubShareButton } from './GitHubShareButton'
+import { ReactUtterances } from './ReactUtterances'
 
 import styles from './styles.module.css'
 
@@ -247,6 +248,21 @@ export const NotionPage: React.FC<types.PageProps> = ({
     getPageProperty<string>('Description', block, recordMap) ||
     config.description
 
+  let comments: React.ReactNode = null
+  // only display comments and page actions on blog post pages
+  if (isBlogPost) {
+    if (config.utterancesGitHubRepo) {
+      comments = (
+        <ReactUtterances
+          repo={config.utterancesGitHubRepo}
+          issueMap='issue-term'
+          issueTerm='title'
+          theme={isDarkMode ? 'photon-dark' : 'github-light'}
+        />
+      )
+    }
+  }
+
   return (
     <>
       <PageHead
@@ -284,6 +300,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         searchNotion={config.isSearchEnabled ? searchNotion : null}
         pageAside={pageAside}
         footer={footer}
+        pageFooter={comments}
       />
 
       <GitHubShareButton />
