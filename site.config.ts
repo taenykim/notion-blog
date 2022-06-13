@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'taenykim',
 
   // open graph metadata (optional)
-  description: 'hello world',
+  description: 'Learn in Public',
 
   // social usernames (optional)
   twitter: '',
