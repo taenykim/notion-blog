@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Taeny blog',
-  domain: 'taeny.ddevv',
+  name: 'Learn in Public',
+  domain: 'learn-in-public.vercel.app',
   author: 'taenykim',
 
   // open graph metadata (optional)
