@@ -28,57 +28,57 @@ module.exports = withBundleAnalyzer({
         permanent: true
       },
       {
-        source: 'javascript/oopstudy1/',
+        source: '/javascript/oopstudy1/',
         destination: '/oopstudy1',
         permanent: true
       },
       {
-        source: 'javascript/oopstudy2/',
+        source: '/javascript/oopstudy2/',
         destination: '/oopstudy2',
         permanent: true
       },
       {
-        source: 'javascript/nextjs-with-deployment-platform/',
+        source: '/javascript/nextjs-with-deployment-platform/',
         destination: '/nextjs-deploy',
         permanent: true
       },
       {
-        source: 'essay/bf-test-review/',
+        source: '/essay/bf-test-review/',
         destination: '/bf-test-review',
         permanent: true
       },
       {
-        source: 'essay/리그-오브-디벨로퍼/',
+        source: '/essay/리그-오브-디벨로퍼/',
         destination: '/league-of-developers',
         permanent: true
       },
       {
-        source: 'essay/boostcamp-challenge-1/',
+        source: '/essay/boostcamp-challenge-1/',
         destination: '/boostcamp-challenge-review1',
         permanent: true
       },
       {
-        source: 'essay/boostcapm-challenge-2/',
+        source: '/essay/boostcapm-challenge-2/',
         destination: '/boostcamp-challenge-review2',
         permanent: true
       },
       {
-        source: 'essay/boostcamp-challenge-3/',
+        source: '/essay/boostcamp-challenge-3/',
         destination: '/boostcamp-challenge-review3',
         permanent: true
       },
       {
-        source: 'essay/boostcamp-challenge-4/',
+        source: '/essay/boostcamp-challenge-4/',
         destination: '/boostcamp-challenge-review4',
         permanent: true
       },
       {
-        source: 'essay/boostcamp-membership-review/',
+        source: '/essay/boostcamp-membership-review/',
         destination: '/boostcamp-membership-review',
         permanent: true
       },
       {
-        source: 'project/boilerplate-generator/',
+        source: '/project/boilerplate-generator/',
         destination: '/boilerplate-generator',
         permanent: true
       }
