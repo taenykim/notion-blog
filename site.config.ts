@@ -56,7 +56,7 @@ export default siteConfig({
     '/essay/bf-test-review': 'BF-TEST-72cc237198634a93affe9c721b54736e',
     '/javascript/oopstudy2':
       'MVC-MVVM-FLUX-OOP-Study-2-a4d3828c5dff4285bea6002553732d78',
-    '2020-Dev-Matching-df38b564a87f4703b05863c6245eabb3':
+    '/javascript/nextjs-with-deployment-platform':
       'nextJS-Netlify-Vercel-Github-page-70a845811c3141598c45695c775edd90',
     '/javascript/oopstudy1': 'OOP-Study-1-af78d1802cc04144851c3b3ca8a8f235',
     '/essay/프로그래머스-2020-dev-matching-웹-프론트엔드-개발자(상반기)-후기':
