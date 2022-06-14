@@ -44,11 +44,25 @@ export default siteConfig({
   // any pages defined here will override their default URL paths
   // example:
   //
-  // pageUrlOverrides: {
-  //   '/foo': '067dd719a912471ea9a3ac10710e7fdf',
-  //   '/bar': '0be6efce9daf42688f65c76b89f8eb27'
-  // }
-  pageUrlOverrides: null,
+  pageUrlOverrides: {
+    '/project/boilerplate-generator': '853ad7df654c4e1fb203e23b56f8efc6',
+    '/essay/boostcamp-membership-review': '0ac0e91ec75449038e65b84fb40ef83e',
+    '/essay/boostcamp-challenge-4': 'efa678b8c47343dbae50fb064ceacef5',
+    '/essay/boostcamp-challenge-3': '2020-3-151f1bee90e64e1e9b779ce689f5bbfc',
+    '/essay/boostcapm-challenge-2': '2020-2-e679c94e6db64b2e83ede4eb54608541',
+    '/essay/boostcamp-challenge-1': '2020-1-aecb07655da94a009ca1fc8bbdba9a45',
+    '/essay/리그-오브-디벨로퍼':
+      'League-of-Developers-84d5e023f8bf43609d2c449cea6001b1',
+    '/essay/bf-test-review': 'BF-TEST-72cc237198634a93affe9c721b54736e',
+    '/javascript/oopstudy2':
+      'MVC-MVVM-FLUX-OOP-Study-2-a4d3828c5dff4285bea6002553732d78',
+    '2020-Dev-Matching-df38b564a87f4703b05863c6245eabb3':
+      'nextJS-Netlify-Vercel-Github-page-70a845811c3141598c45695c775edd90',
+    '/javascript/oopstudy1': 'OOP-Study-1-af78d1802cc04144851c3b3ca8a8f235',
+    '/essay/프로그래머스-2020-dev-matching-웹-프론트엔드-개발자(상반기)-후기':
+      '2020-Dev-Matching-df38b564a87f4703b05863c6245eabb3'
+  },
+  // pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
