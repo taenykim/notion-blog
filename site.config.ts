@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Learn in Public',
-  domain: 'learn-in-public.vercel.app',
+  domain: 'taeny.dev',
   author: 'taenykim',
 
   // open graph metadata (optional)
@@ -30,7 +30,7 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: 'taenykim/notion-blog',
+  utterancesGitHubRepo: 'taenykim/taeny.dev',
 
   // whether or not to enable support for LQIP preview images (optional)
   isPreviewImageSupportEnabled: true,
