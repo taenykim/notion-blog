@@ -27,7 +27,7 @@
     "**/.node_repl_history": true,
     "**/*.tgz": true,
     "**/.yarn-integrity": true,
-    "**/.next/": true,
+    // "**/.next/": true,
     "**/dist/": true,
     "**/build/": true,
     "**/.now/": true,
