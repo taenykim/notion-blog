@@ -5,7 +5,7 @@ import { resolveNotionPage } from 'lib/resolve-notion-page'
 import { NotionPage } from 'components'
 
 export const getStaticProps = async (context) => {
-  const rawPageId = context.params.pageId as string
+  const rawPageId = context.params.pageId.join('/')
 
   try {
     const props = await resolveNotionPage(domain, rawPageId)
@@ -33,7 +33,7 @@ export async function getStaticPaths() {
   const staticPaths = {
     paths: Object.keys(siteMap.canonicalPageMap).map((pageId) => ({
       params: {
-        pageId
+        pageId: pageId.split('/')
       }
     })),
     // paths: [],
